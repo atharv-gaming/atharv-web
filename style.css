@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 170px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    display: table;
+
+    width: 100%;
+    color: black;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(#6392ff 0%, #fc0d05 100%);
+    z-index: 8;
+        
+}
+
+.pi {
+display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+.line{
+    height: 6px;
+    background-color: white;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.3;
+    
+}
+#name{
+font-family: 'Anton', sans-serif;
+}
+.cont_1 a{
+ text-shadow: none;   
+}
+.menu{
+    margin-top:0px;
+    width:100%;
+    list-style: none;
+    font-family: 'Shadows Into Light', cursive;
+    position: fixed;
+    top:0px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: darkorchid;
+    text-shadow: 5px 5px red;
+}
+#myschool a{
+text-shadow: none!important;
+    text-decoration:underline !important;
+    font-size: 20px;
+}
+.links{
+display: inline;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-size: 25px;
+}
+.links:hover{
+background-color: chocolate;
+    text-decoration: underline;
+}
